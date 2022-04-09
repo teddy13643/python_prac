@@ -3,4 +3,4 @@ import matplotlib.image as img
 
 image = img.imread('Img.png')
 plt.imshow(image)
-plt.show()
+plt.show()  #fff
