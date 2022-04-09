@@ -1,6 +1,6 @@
-# print(input("打什麼就吐什麼唷："))
+import matplotlib.pyplot as plt
+import matplotlib.image as img
 
-if "ha" is "ha":
-    print("yes")
-else:
-    print("no")
+image = img.imread('Img.png')
+plt.imshow(image)
+plt.show()
